@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.body-container{
+  background-image: url(bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+}
+
+.error-container img{
+  width: 70%;
+}
+.container-signin {
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 1px );
+  border-radius: 10px;
+  width: 500px;
+  max-width: 100%;
+  min-height: 500px;
+}
+.container-signin h1{
+  color: #FFFFFF;
+}
+.container-signin span {
+  color: #FFFFFF;
+	font-size: 12px;
+}
+.container-signin a {
+	color: #FFFFFF;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+.container-signin .btn{
+	border-radius: 20px;
+	border: 1px solid #fe5d0d;
+	background-color: #fe5d0d;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.container-signin form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 60px 50px;
+	height: 100%;
+	text-align: center;
+}
+.container-signin label{
+	font-size: 12px;
+	vertical-align: top;
+}
+.showPass{
+  color: #ddd;
+	margin:5px;
+	align-self: flex-start;
+}
+#passType{
+	margin:0 3px;
+	width:auto;
+}
+#typePass{
+	margin:0 3px;
+	width:auto;
+}
+.container-signin input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+.container-signin .btn:active {
+	transform: scale(0.95);
+}
+.container-signin .btn:focus {
+	outline: none;
+}
+.sign-in-container {
+	width: 100%;
+}
+
+.social-container {
+	margin: 20px 0;
+}
+
+.social-container a {
+	border: 1px solid #ddd;
+  font-size: 20px;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+
+
+.hero-sec{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../public/hero-bg.jpg) ;
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.get-btn:hover{
+  background-color: #ffc107;
+}
+.client-img{
+  filter: grayscale(1);
+  transform: scale(0.6);
+  transition: all 0.5s ease;
+}
+.client-img:hover{
+  filter: grayscale(0);
+  transform: scale(1);
+}
+.about-sec Col{
+  height: 100px;
+  padding: 20px;
+}
+.about-sec span{
+  color:#8b97b3;
+}
+.sec-head::after{
+  content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffc107;
+    bottom: -5px;
+    left: calc(50% - 25px);
+}
+
+.call-to-action{
+  background-color: #282c34;
+  color: #fff;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foot{
+  background-color: #eee5e5;
+  padding: 20px 0;
+}
+.foot input{
+  background-color: #eee5e5;
+}
+.team-card , .shadow, .shadow-bg{
+  box-shadow: 0 0 10px #ccc;
+}
+.team-card:hover .team-icons{
+  opacity: 1;
+}
+.team-icons{
+  width: 100%;
+  position: absolute;
+  padding: 15px 0;
+  background:linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8));
+  bottom: 25%;
+  left:0;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.shadow-bg small{
+  display: block;
+  font-size: 12px;
+}
+.shadow-bg span{
+  font-size: 8px;
+}
+.team-icons span:hover{
+  color: #ffc107;
+}
+.shadow{
+  margin: 10px;
+}
+.social-icons i{
+  background-color: #dddbdb;
+}
+
+.icon{
+  background-color: #f7e1c0;
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-form{
+  background-color: #f8e8e8;
+}
+.image-sec{
+  background-color: #e44e81;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.watch-card{
+  background-image: linear-gradient(to bottom, #ff5795, #ff5b8a, #ff607f, #fd6576, #fa6b6d);
+  border-radius: 25% 20px 25% 20px;  
+  height: 500px;
+}
+.price-tag{
+  position: absolute;
+  background-color: #ffc107;
+  height: 25px;
+  width: fit-content;
+  padding: 0 5px;
+  top: 30%;
+  right:-15%;
+  transform: skew(-30deg);
+}
+.price-tag p{
+  transform: skew(30deg);
+}
+.watch-descrip{
+  font-size: 12px;
+  padding: 0 15px;
+  line-height: 1.5;
+}
+.watch-card h4{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.watch-card h6{
+  text-transform: uppercase;
+}
